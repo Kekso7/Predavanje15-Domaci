@@ -1,0 +1,54 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.cont {
+	height: 100vh;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.border {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.orderForm input {
+	width: 250px;
+	display: flex;
+}
+
+.orderForm div,
+.orderForm select {
+	margin-top: 20px;
+}
+
+.button input {
+	width: 100px;
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+}
+
+.center {
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.center input {
+	width: 100px;
+}
+
+@media only screen and (max-width: 640px) {
+	.orderForm input {
+		width: 400px;
+	}
+
+	.center input {
+		width: 100px;
+	}
+}

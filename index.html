@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="css/all.min.css" />
+		<title>Predavanje15 Domaci</title>
+	</head>
+	<body>
+		<div class="cont">
+			<form class="orderForm border">
+				<div>
+					<label for="name">Name:</label>
+					<input id="name" type="text" placeholder="Your name" required />
+				</div>
+				<div>
+					<label for="adress">Adress:</label>
+					<input id="adress" type="text" placeholder="Your Adress" required />
+				</div>
+				<div>
+					<label for="email">Email:</label>
+					<input id="email" type="text" placeholder="Your Email" required />
+				</div>
+
+				<div class="center">
+					<input id="mailSub" type="checkbox" />
+					<label for="mailSub">Send me email</label>
+				</div>
+
+				<div>
+					<p>Select Your City</p>
+					<select>
+						<option disabled>Your City</option>
+						<option>Novi Sad</option>
+						<option>Beograd</option>
+						<option selected>Bratislava</option>
+					</select>
+				</div>
+
+				<div>
+					<p>How to pay</p>
+					<div class="center">
+						<input type="radio" id="card" name="fav_language" value="card" />
+						<label for="card">Card</label>
+					</div>
+					<div class="center">
+						<input
+							type="radio"
+							id="curier"
+							name="fav_language"
+							value="curier"
+						/>
+						<label for="curier">Curier</label>
+					</div>
+				</div>
+				<div class="button">
+					<input type="submit" value="Send Email" />
+				</div>
+			</form>
+		</div>
+	</body>
+</html>
